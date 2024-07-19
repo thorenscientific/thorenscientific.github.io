@@ -12,6 +12,15 @@ Welcome to Welcome to Thoren Scientific
 
 I’m not 100% sure what I’m going to put here yet, most likely links to handy resources that I’ve collected over the years, documetation for my sciencey stuff that is far removed from my day job (the boundaries are fuzzy), and who knows what else.
 
+In the meantime, enjoy this video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=btFX01-jHaUdCz8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
