@@ -31,7 +31,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_rtd_theme'
 # html_theme = 'cloud'
 html_static_path = ['_static']
+html_logo = 'nerd_points_at_shiny_object.jpg'
 
 html_theme_options = {'description':'By Mark Thoren - thorenscientific@gmail.com',
-                      'logo': 'nerd_points_at_shiny_object.jpg',
-                      'logo_name': True}
+                      'logo_name': True,
+                      'logo_only': False}
