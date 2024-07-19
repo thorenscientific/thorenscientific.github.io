@@ -24,6 +24,14 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+
+
+
+
 html_theme = 'sphinx_rtd_theme'
 # html_theme = 'cloud'
 html_static_path = ['_static']
+
+html_theme_options = {'description':'By Mark Thoren - thorenscientific@gmail.com',
+                      'logo': 'nerd_points_at_shiny_object.jpg',
+                      'logo_name': True}
