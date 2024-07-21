@@ -19,12 +19,20 @@ In the meantime, enjoy this video:
    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=btFX01-jHaUdCz8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-
-
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 4
+   :caption: Contents 01:
+   :hidden:
 
    some-feature.md
    another-feature.md
    yet-another-feature.rst
+
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Lists of Things:
+   :hidden:
+
+   lists_of_things/akins_laws
+   lists_of_things/sagans_baloney_detector
