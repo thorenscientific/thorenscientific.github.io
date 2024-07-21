@@ -21,18 +21,19 @@ In the meantime, enjoy this video:
 
 .. toctree::
    :maxdepth: 4
+   :caption: Lists of Things:
+   :hidden:
+
+   pre_post_pox_eclipse.rst
+   lists_of_things/akins_laws
+   lists_of_things/sagans_baloney_detector
+
+.. toctree::
+   :maxdepth: 4
    :caption: Contents 01:
    :hidden:
 
    some-feature.md
    another-feature.md
    yet-another-feature.rst
-
-
-.. toctree::
-   :maxdepth: 4
-   :caption: Lists of Things:
-   :hidden:
-
-   lists_of_things/akins_laws
-   lists_of_things/sagans_baloney_detector
+   
