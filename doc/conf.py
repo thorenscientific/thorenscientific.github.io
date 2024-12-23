@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Thoren Scientific'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'Thoren Scientific Website'
+copyright = 'Mark W. Thoren'
+author = 'Mark W. Thoren'
 release = '0.1'
 
 
