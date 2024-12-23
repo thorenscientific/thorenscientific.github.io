@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Thoren Scientific'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'Thoren Scientific Website'
+copyright = 'Mark W. Thoren'
+author = 'Mark W. Thoren'
 release = '0.1'
 
 
@@ -31,5 +31,5 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'nerd_points_at_shiny_object.png'
 html_theme_options = {
-    'logo_only': False,
-    'display_version': False,}
+    'logo_only': False,}
+#     'display_version': False,}
