@@ -2,7 +2,7 @@ Hands-On Mixed Signal
 =====================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 1
    :caption: Table of Contents Draft:
 
    table_of_contents/index.rst
@@ -34,6 +34,10 @@ Throughout all of these, there has been a common thread of trying to make things
 One of the inspirations for this is effort is this dissertation: |br|
 `The ASPEN platform : tools for mixed signal electronics, digital signal processing, and biomedical electronics <https://purl.stanford.edu/nq977kw3386>`__ William Esposito, 2018. It's a REALLY nice collection of, well, see the title.
 
+Another is Dr. David S. Ricketts' `Advanced analog IC and Data Converter Course lectures <https://rickettslab.org/adc/>`__. |br|
+(Also see his "Rabbit Radar!")
+
+
 Work / Analog Devices related referenes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -45,7 +49,8 @@ This is also foundational, but adds in tools for generating and analyzing signal
 
 Note that this is in a fork of analogdevicesinc/documentation, The future home will be `HERE <https://analogdevicesinc.github.io/documentation/learning/sw_infrastructure/index.htmltr>`__.
 
-
+`"Webinar: Noise Analysis in Precision Analog Designs" <https://ez.analog.com/webinar/c/e/157>`__ |br|
+Done by Scott Hunt, most excellent. (`Slide Deck <https://ez.analog.com/webinar/m/presentations/2772>`__, `Video link <https://ez.analog.com/webinar/m/recordings/2468>`__)
 
 
 
@@ -94,10 +99,15 @@ The first Analog Device’s worldwide seminar to treat the fundamentals of data 
 This is dated, of course, but covers Amplifiers, ADCs, mux considerations, distortion mechanisms, analog prototyping techniques. |br|
 `Practical Analog Design Techniques, 1995 <https://www.analog.com/en/resources/technical-books/practical-analog-design-techniques.html>`__
 
+`Mixed Signal and DSP Design Techniques, 2002 <https://www.analog.com/en/resources/technical-books/mixed_signal_dsp_design_book.html>`__ |br|
+"This book covers the fundamentals of mixed-signal circuits from the viewpoint of the practicing engineer. The theory of sampled data systems, ADCs, and DACs is discussed, along with practical examples. Fast fourier transforms and digital filter fundamentals are presented in a fashion that minimizes the detailed mathematics. The book concludes with DSP hardware fundamentals, interfacing, and practical PCB layout techniques."
 
 This is also probably a bit dated - we will sort through this for perspective: |br|
 `The Data Conversion Handbook, 2005 <https://www.analog.com/en/resources/technical-books/data-conversion-handbook.html>`__, Walt Kester, ISBN 0-916550-27-3 (`Zip file of entire book <https://www.analog.com/media/en/training-seminars/design-handbooks/Data-Conversion-Handbook/analog_digital_conversion.zip>`__)
 
+And THIS one is REALLY dated! (Thoren was -1 years old when it was published!): |br|
+`Analog-Digital Conversion Handbook, 1972 <https://www.analog.com/en/resources/technical-books/analog-digital-conversion-1972.html>`__
+(`Zip file of entire book <https://www.analog.com/media/en/training-seminars/design-handbooks/Analog-Digital-Conversion-1972/Analog-Digital-Conversion-Handbook-1972.zip>`__)
 
 Digital Signal Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~

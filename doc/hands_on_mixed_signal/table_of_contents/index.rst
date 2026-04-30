@@ -1,5 +1,5 @@
 Table of Contents
-=====================
+=================
 
 Stream of Consciousness Brainstorm for a table of contents.
 
