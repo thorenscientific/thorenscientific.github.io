@@ -19,7 +19,7 @@ In the meantime, enjoy this video:
    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=btFX01-jHaUdCz8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 4
    :caption: Hands-On Mixed Signal:
    :hidden:
 
@@ -27,16 +27,30 @@ In the meantime, enjoy this video:
 
 .. toctree::
    :maxdepth: 4
-   :caption: Lists of Things:
+   :caption: Interesting Circuits:
    :hidden:
 
-   lists_of_things/akins_laws
-   lists_of_things/sagans_baloney_detector
-   pre_post_pox_eclipse.rst
+   interesting_circuits/interesting_circuits.rst
 
 .. toctree::
    :maxdepth: 4
-   :caption: Contents 01:
+   :caption: Learning:
+   :hidden:
+
+   learning/learning.rst
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Lists of Things:
+   :hidden:
+
+   lists_of_things/akins_laws.rst
+   lists_of_things/sagans_baloney_detector.rst
+   lists_of_things/pre_post_pox_eclipse.rst
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Page Templates:
    :hidden:
 
    some-feature.md

@@ -1,0 +1,20 @@
+● I see the issue. You're using sphinx_rtd_theme with five separate toctree directives in index.rst, and no explicit sidebar navigation options. The RTD theme's default collapse_navigation: True hides
+  toctree entries that aren't ancestors of the current page — which can cause entire sections to vanish from the sidebar when you're deep in a sub-page.
+
+  The fix is to set collapse_navigation: False in your theme options, so all top-level sections remain visible in the sidebar at all times:
+
+● Update(doc/conf.py)
+  ⎿  Added 3 lines, removed 1 line
+      31  html_static_path = ['_static']
+      32  html_logo = 'nerd_points_at_shiny_object.png'
+      33  html_theme_options = {
+      34 -    'logo_only': False,}
+      34 +    'logo_only': False,
+      35 +    'collapse_navigation': False,
+      36 +}
+      37  #     'display_version': False,}
+
+● This sets collapse_navigation: False, which keeps all sidebar entries visible regardless of which page you're on. The tradeoff is that sub-topics will be shown expanded rather than collapsed — but with
+  your current depth of content, that should be fine. If the tree gets deep and you'd prefer sub-items to be collapsible (with toggle arrows), that would require switching to a theme like furo or
+  pydata-sphinx-theme which support that behavior natively.
+

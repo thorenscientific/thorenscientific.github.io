@@ -31,5 +31,8 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'nerd_points_at_shiny_object.png'
 html_theme_options = {
-    'logo_only': False,}
+    'logo_only': False,
+    'collapse_navigation': False,
+}
+html_favicon = '_static/the_engine_trimmed.png'
 #     'display_version': False,}
