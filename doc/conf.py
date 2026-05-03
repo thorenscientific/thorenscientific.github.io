@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Thoren Scientific Website'
+project = 'Thoren Scientific'
 copyright = 'Mark W. Thoren'
 author = 'Mark W. Thoren'
 release = '0.1'
@@ -34,5 +34,5 @@ html_theme_options = {
     'logo_only': False,
     'collapse_navigation': False,
 }
-html_favicon = '_static/the_engine_trimmed.png'
+html_favicon = '_static/favicon.ico'
 #     'display_version': False,}

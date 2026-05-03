@@ -34,6 +34,14 @@ In the meantime, enjoy this video:
 
 .. toctree::
    :maxdepth: 4
+   :caption: Circuit Bookmarks:
+   :hidden:
+
+   interesting_circuits/public_circuit_bookmarks.rst
+
+
+.. toctree::
+   :maxdepth: 4
    :caption: Learning:
    :hidden:
 
