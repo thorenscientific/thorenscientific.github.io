@@ -20,10 +20,10 @@ In the meantime, enjoy this video:
 
 .. toctree::
    :maxdepth: 4
-   :caption: Hands-On Mixed Signal:
+   :caption: Research Notebook: Intuitive Labs
    :hidden:
 
-   hands_on_mixed_signal/index.rst
+   intuitive_labs/index.rst
 
 .. toctree::
    :maxdepth: 4
@@ -31,12 +31,6 @@ In the meantime, enjoy this video:
    :hidden:
 
    interesting_circuits/interesting_circuits.rst
-
-.. toctree::
-   :maxdepth: 4
-   :caption: Circuit Bookmarks:
-   :hidden:
-
    interesting_circuits/public_circuit_bookmarks.rst
 
 

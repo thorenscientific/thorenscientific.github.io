@@ -1,18 +1,16 @@
-Table of Contents
-=================
+Data Conversion and Signal Processing
+======================================
 
 Stream of Consciousness Brainstorm for a table of contents.
 
-Data Converter History
-----------------------
+.. rubric:: Data Converter History
 
 * Fluff chapter with some interesting architectures.
 * Potentiometer servo ADC
 * Kelvin-Varley Divider (don't forget Williams' references)
 * DAC with external deglitcher
 
-Fundamentals of Sampled Data Systems
-------------------------------------
+.. rubric:: Fundamentals of Sampled Data Systems
 
 dt * dv/dt = dv... it's the law!
 
@@ -25,8 +23,7 @@ dt * dv/dt = dv... it's the law!
       * ADALM-Pluto
       * Clock sources
 
-Analog to Digital Converters
-----------------------------
+.. rubric:: Analog to Digital Converters
 
 * ADC Architectures
    * SAR (Modern, q noise lower than thermal noise)
@@ -47,8 +44,7 @@ Analog to Digital Converters
    * Transparent, cotinuous low-noise gain and offset calibration from noisy calibration readings (AN112)
    * Multitone narrow-band detection (FTC colorimeter)
 
-Digital to Analog Converters
-----------------------------
+.. rubric:: Digital to Analog Converters
 
 * DAC Architectures
    * PWM DACs

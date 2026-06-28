@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Thoren Scientific'
-copyright = 'Mark W. Thoren'
+copyright = 'Mark W. Thoren, CC BY-NC-SA 4.0'
 author = 'Mark W. Thoren'
 release = '0.1'
 

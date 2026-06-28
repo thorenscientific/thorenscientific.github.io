@@ -1,11 +1,13 @@
-Hands-On Mixed Signal
-=====================
+A Methodology for Developing Physically Intuitive Laboratories for Advanced Electrical Engineering Education
+============================================================================================================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Table of Contents Draft:
+   :hidden:
 
-   table_of_contents/index.rst
+   data_conversion/index.rst
+   software_defined_radio/index.rst
+   power_electronics/index.rst
 
 A starting point for a(n) (e)book / survey / other on various things practical mixed signal.
 
@@ -38,8 +40,7 @@ Another is Dr. David S. Ricketts' `Advanced analog IC and Data Converter Course 
 (Also see his "Rabbit Radar!")
 
 
-Work / Analog Devices related referenes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. rubric:: Work / Analog Devices related referenes
 
 `Tools for Low Speed Mixed Signal System Design <https://analogdevicesinc.github.io/documentation/learning/tools_for_ls/index.html>`__ |br|
 This one is mostly focused on software control of ADCs and DACs using Linux device drivers. Think of it as a "facilitator" or foundational section. But it does have a tiny bit of LTspice, some basic measurments involving a tiny bit of math, so it's not a bad place to start out. Also a great place for pointing out the distinction between industry standard software vs. bespoke / one-off.
@@ -55,8 +56,8 @@ Done by Scott Hunt, most excellent. (`Slide Deck <https://ez.analog.com/webinar/
 
 
 
-My own stuff to expand upon
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. rubric:: My own stuff to expand upon
+
 I've explored various topics to one degree or another before, so why not start with these? 
 
 `Using Python for Analysis and Verification of Mixed-mode Signal Chains <https://proceedings.scipy.org/articles/majora-1b6fd038-001>`__ |br|
@@ -78,8 +79,7 @@ A VERY rough start on an "ADC Crash Course", as a Jupyter Notebook. |br|
 (This is a verson with saved output plots, may be out of date. Take out the "_with_output" from the URL to get the latest.)
 
 
-Unsorted References
-~~~~~~~~~~~~~~~~~~~
+.. rubric:: Unsorted References
 
 Let's start by scrubbing Analog Devices' technical books. Here's a search: |br|
 `resourceTypes=Education~Technical Book <https://www.analog.com/en/search.html?resourceTypes=Education~Technical%20Book>`__
@@ -109,28 +109,24 @@ And THIS one is REALLY dated! (Thoren was -1 years old when it was published!): 
 `Analog-Digital Conversion Handbook, 1972 <https://www.analog.com/en/resources/technical-books/analog-digital-conversion-1972.html>`__
 (`Zip file of entire book <https://www.analog.com/media/en/training-seminars/design-handbooks/Analog-Digital-Conversion-1972/Analog-Digital-Conversion-Handbook-1972.zip>`__)
 
-Digital Signal Processing
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. rubric:: Digital Signal Processing
 
 An insanely interesting collection of DSP concepts, illustrated with Python: |br|
 `Learning DSP Illustrated <https://dspillustrations.com/pages/index.html>`__
 
 
-Software-Defined Radio
-~~~~~~~~~~~~~~~~~~~~~~
+.. rubric:: Software-Defined Radio
 
 It does not get much better than PySDR.org: |br|
 `PySDR: A Guide to SDR and DSP using Python <https://pysdr.org/>`__
 
 
-Layout
-~~~~~~
+.. rubric:: Layout
 
 The best four pages ever written on mixed-signal layout: |br|
 `Partitioning and Layout of a Mixed-Signal PCB <https://hott.shielddigitaldesign.com/pdf_files/june2001pcd_mixedsignal.pdf>`__
 
-"OG" References - Fundamental stuff
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. rubric:: "OG" References - Fundamental stuff
 
 `Digital Signal Processing by Alan V. Oppenheim, Ronald W. Schafer <https://www.goodreads.com/book/show/166326.Digital_Signal_Processing>`__
 
@@ -139,6 +135,13 @@ The best four pages ever written on mixed-signal layout: |br|
 `On the use of windows for harmonic analysis with the discrete Fourier transform, F.J. Harris, 1978 <https://ieeexplore.ieee.org/document/1455106>`__
 (`PDF from an MIT site <https://web.mit.edu/xiphmont/Public/windows.pdf>`__)
 
+
+.. note::
+
+   This work is licensed under `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ —
+   Attribution, NonCommercial, ShareAlike. You are free to share and adapt this material
+   for non-commercial purposes, provided you give appropriate credit and distribute any
+   adaptations under the same license.
 
 .. # define a hard line break for HTML
 .. |br| raw:: html

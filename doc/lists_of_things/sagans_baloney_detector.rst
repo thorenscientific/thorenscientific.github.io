@@ -1,11 +1,7 @@
-Forgive the formatting, still trying to figure out lists within collapsible sections...
-
 Carl Sagan's Baloney Detection Kit
 ==================================
-Lots of references on the interwebs. Like **[This One](https://www3.nd.edu/~ghaeffel/Baloney.pdf)**.
 
-
-<summary>**Click to Open the Baloney Detector**</summary>
+Lots of references on the interwebs. Like `this one <https://www3.nd.edu/~ghaeffel/Baloney.pdf>`__.
 
 1. Wherever possible there must be independent confirmation of the “facts.”  
 

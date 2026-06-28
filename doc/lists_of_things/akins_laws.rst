@@ -1,12 +1,7 @@
-Forgive the formatting, still trying to figure out lists within collapsible sections...
-
 Akin's Laws of Spacecraft Design
 ================================
 
-**[Akin's Laws of Spacecraft Design](https://spacecraft.ssl.umd.edu/akins_laws.html)** (Pretty sure this is the "OG".)  
-
-
-<summary>**Click to Open Akin's Laws**</summary>
+`Akin's Laws of Spacecraft Design <https://spacecraft.ssl.umd.edu/akins_laws.html>`__ (Pretty sure this is the "OG".)
 
 1. Engineering is done with numbers. Analysis without numbers is only an opinion.
 
